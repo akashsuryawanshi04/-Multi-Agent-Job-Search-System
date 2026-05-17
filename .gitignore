@@ -1,0 +1,25 @@
+echo ".env" >> .gitignore
+echo "*.env" >> .gitignore
+echo "uploads/" >> .gitignore
+echo "logs/" >> .gitignore
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
